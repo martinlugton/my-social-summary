@@ -1,0 +1,19 @@
+{
+  "name": "my-social-summary",
+  "version": "1.0.0",
+  "description": "A service that sends you a personalised summary of the most interesting twitter activity each day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinlugton/my-social-summary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinlugton/my-social-summary/issues"
+  },
+  "homepage": "https://github.com/martinlugton/my-social-summary#readme"
+}
