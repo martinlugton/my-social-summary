@@ -2,8 +2,9 @@
   "name": "my-social-summary",
   "version": "1.0.0",
   "description": "A service that sends you a personalised summary of the most interesting twitter activity each day",
-  "main": "index.js",
+  "main": "summary_generator.js",
   "scripts": {
+    "start": "node summary_generator.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/martinlugton/my-social-summary/issues"
   },
-  "homepage": "https://github.com/martinlugton/my-social-summary#readme"
+  "homepage": "https://github.com/martinlugton/my-social-summary#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^0.27.2",
+    "csv-parse": "^5.3.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "twitter-api-v2": "^1.12.7"
+  }
 }
