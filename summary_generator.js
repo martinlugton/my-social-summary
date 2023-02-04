@@ -236,6 +236,7 @@ var generateSetofEmbedCodesfromListofTweets = async function (list_of_tweet_ids)
 
 var generateSetofEmbedCodesforListorSearch = async function (list_or_search, list_id, number_to_return) {
 	list_of_tweets_to_embed_for_this_list_or_search  = await getBestRecentTweets(list_or_search, list_id, number_to_return);
+	debugger;
 	object_to_return = await generateSetofEmbedCodesfromListofTweets(list_of_tweets_to_embed_for_this_list_or_search);
 	return object_to_return;
 }
